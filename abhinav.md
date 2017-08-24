@@ -1,5 +1,3 @@
-sudo apt-get update
-sudo dpkg -i skypeforlinux-64.deb 
 
 ####
 sudo dpkg -i teamviewer_12.0.76279_i386.deb 
@@ -48,98 +46,9 @@ sudo apt-get install mesa-utils
 glxgears
 sudo nvidia-uninstall
 
-sudo apt-get remove --purge nvidia-*
 
 
-
-sudo apt-get install ubuntu-desktop
-
-
-
-sudo rm /etc/X11/xorg.conf
-
-sudo apt-get install linux-source
-sudo apt-get install linux-headers-3.5.0-17-generic
-
-
-sudo apt-get remove nvidia-current
-sudo apt autoremove
-sudo ubuntu-drivers list
-sudo apt-get update
-
-
-####
-
-# ABHINAV
-
-
-
-vi .bash_profile 
-vi .bashrc 
-vi .profile 
-vi .bash_profile 
-vi .bashrc
-## Brightness controller
-sudo apt-get install brightness-controller
-
-
-
-sudo apt-get purge libappstream3
-cd
-sudo apt-get update
-sudo apt-get -y install docker-ce
-docker --version
-sudo curl -o /usr/local/bin/docker-compose -L "https://github.com/docker/compose/releases/download/1.15.0/docker-compose-$(uname -s)-$(uname -m)"
-
-
-sudo pip3 install xonsh-apt-tabcomplete xonsh-autoxsh xonsh-docker-tabcomplete xonsh-scrapy-tabcomplete xonsh-vox-tabcomplete exofrills xonda xontrib-avox xontrib-z xontrib-powerline xontrib-prompt-vi-mode xonsh-click-tabcomplete xontrib-fzf-widgets lazyasd urwid pygments
-
-
-## ANACONDA
-cd Desktop && wget http://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh
-
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-bash Miniconda3-latest-Linux-x86_64.sh 
-
-conda install python=3.5
-
-vim ~/.bash_profile 
-
-nano ~/.bash_profile 
-
-conda info matplotlib
-
-conda install xonsh
-conda config --add channels conda-forge
-
-conda install xonsh
-
-xonsh
-
-brew install golang
-curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
-
-jabba -version
-which jabba
-
-
-jabba ls-remote
-jabba install zulu@1.8.144
-java -version
-
-curl -L https://git.io/n-install | bash
-
-
-cd miniconda3/bin/
-
-~/miniconda3/bin/pip install xonsh-apt-tabcomplete xonsh-autoxsh xonsh-docker-tabcomplete xonsh-scrapy-tabcomplete xonsh-vox-tabcomplete exofrills xonda xontrib-avox xontrib-z xontrib-powerline xontrib-prompt-vi-mode xonsh-click-tabcomplete xontrib-fzf-widgets urwid lazyasd
-
-
-cd Desktop && wget https://latest.hyper.is/latest/deb
-
-curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
-chmod u+x nvim.appimage
+## NEOVIM
 ./nvim.appimage
 ls
 rm -rf nvim.appimage 

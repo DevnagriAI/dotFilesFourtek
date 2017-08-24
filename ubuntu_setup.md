@@ -295,9 +295,17 @@ exec $SHELL
 sudo chmod -R 777 ~/miniconda3/
 
 conda install python=3.5
+conda config --add channels conda-forge
 
 ```
 
+- Xonsh shell
+
+```
+conda install xonsh
+
+pip install xonsh-apt-tabcomplete xonsh-autoxsh xonsh-docker-tabcomplete xonsh-scrapy-tabcomplete xonsh-vox-tabcomplete exofrills xonda xontrib-avox xontrib-z xontrib-powerline xontrib-prompt-vi-mode xonsh-click-tabcomplete xontrib-fzf-widgets urwid lazyasd
+```
 
 #### R 
 
@@ -321,6 +329,10 @@ The env management for nodejs is done via `n`
 curl -L https://git.io/n-install | bash
 
 source /home/eklavya/.bashrc
+
+
+n lts
+
 ```
 
 #### Editors
@@ -419,7 +431,22 @@ touch install.conf.yaml
 
 
 #### Install DEB files
+- hyper
 
+```
+wget https://latest.hyper.is/latest/deb
+
+sudo dpkg -i hyper_1.3.3.deb 
+
+```
+
+```
+
+- nylas mail
+
+```
+sudo dpkg -i NylasMail.deb 
+```
 - chrome
 - gitkraken
 - buttercup

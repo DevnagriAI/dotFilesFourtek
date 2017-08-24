@@ -30,22 +30,6 @@ Ansible
 Bazel 
 
 
-###
-Dotfile-manager - dotbot!
-https://github.com/anishathalye/dotbot
-
-homesick
-
-
- 159  mkdir .dotbot
-  160  la
-  161  ll
-  162  cd .dotbot/
-  163  git init # initialize repository if needed
-  164  git submodule add https://github.com/anishathalye/dotbot
-  165  cp dotbot/tools/git-submodule/install .
-  166  touch install.conf.yaml
-
 ####
 
 Intellij 
@@ -54,13 +38,13 @@ Dropbox - unable to install
 
 Lua, luajit
 
-Golang based sync for. All - rclone
+rclone
 
 Haskell, ghc, eta
+
 OCaml
 
 
-Xonsh
 
 .Net core2
 Mono, ClojureCLR 
@@ -162,7 +146,9 @@ Sql Explorer
 
 install hub for github
 
-homesick dotfile manager
 
 
-
+krita 
+pencil
+gimp
+inkscape
