@@ -3,20 +3,7 @@ https://www.tecmint.com/ubuntu-14-04-installation-guide/
 #############
 
 N, nodejs, lumo, planck
-
-############
-Rbenv
-Ruby, rails
-Rake
-
 ###########
-
-https://gorails.com/setup/ubuntu/16.04
-
-Linuxbrew
-Brightness
-
-###
 Docker ce
 Docker compose
 
@@ -27,7 +14,6 @@ sudo apt install \
     curl \
     software-properties-common
     
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
@@ -45,18 +31,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ####
 
-gimme
-
-brew install gimme
-
-gimme stable
-
-####
-
-
-libappindicator error
-
-sudo apt-get install libappindicator1 libindicator7
 ####
 
 Vscode
@@ -73,6 +47,8 @@ https://askubuntu.com/questions/851633/emacs-25-on-ubuntu-16-10
 ##
 
 Anaconda-py3
+
+
   168  sudo chmod -R 777 ~/miniconda3/
   169  conda install python=3.5
   170  sudo conda install python=3.5
@@ -82,33 +58,11 @@ Anaconda-py3
 
 
 
-## Jabba, zulu java
-  128  brew install golang
-  129  go --version
-  130  curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
-  131  cat .bash_profile 
-  132  jabba install zulu@1.8.144
-  133  java -version
-  134  gedit .bash_profile 
-  135  history
 
-
-
-Boot 
-Lein
-Jruby
 Rustup
-Go
 
 
-####
-install SBT and then direcly install ammonite
 
-rm -rf /usr/local/bin/amm && sudo curl -L -o /usr/local/bin/amm https://git.io/v5Tct && sudo chmod +x /usr/local/bin/amm && amm
-
-
-or brew info ammonite-repl
-Scala, ammonite 
 ####
 
 Vagrant 
@@ -167,16 +121,6 @@ http://flatpak.org/getting.html
 http://www.monodevelop.com/download/linux/
 
 
-
-R, via conda
-conda install r-essentials
-conda install -c r rstudio 
-
-
-
-
-Julia
-conda install -c pstey julia 
 
 
 Crystal 
@@ -274,9 +218,7 @@ Sql Explorer
 
 ####
 
-conda 
 
-conda install python=3.5
 
 install hub for github
 

@@ -185,4 +185,172 @@ Hi excid3! You've successfully authenticated, but GitHub does not provide shell 
 ```
 
 
+#### GO-lang installtion
+
+```
+brew install gimme
+gimme stable
+```
+
+- At this point we've added stuff to the `.bashrc` and avoided messing up `.bash_profile`
+
+
+#### Docker
+
+```sh
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt update && sudo apt install docker-ce
+
+```
+
+
+- Docker Compose
+
+```sh
+sudo curl -o /usr/local/bin/docker-compose -L "https://github.com/docker/compose/releases/download/1.15.0/docker-compose-$(uname -s)-$(uname -m)"
+
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+
+
+#### Java and JVM Languages
+
+- java
+
+```sh
+
+
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
+
+jabba install zulu@1.8.144
+
+```
+
+- Scala
+
+```
+brew install ammonite-repl
+
+
+brew install sbt
+```
+
+
+- Clojure
+
+```
+brew install leiningen
+
+lein repl
+
+brew install boot-clj
+
+boot repl
+```
+
+- jRuby
+
+```
+rbenv install --list
+
+rbenv install jruby-9.1.12.0
+
+```
+
+#### Copy the `INSTALLERS` folder from the pen drive to `~/Desktop/dotFiles/`
+
+
+And move inside that folder using 
+
+```sh
+cd Desktop/dotFiles/installers/
+
+```
+
+** TODO 
+Automate the download of latest binaries 
+
+```
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+```
+
+#### ANACONDA
+
+```
+sudo bash Miniconda3-latest-Linux-x86_64.sh 
+
+exec $SHELL
+sudo chmod -R 777 ~/miniconda3/
+
+conda install python=3.5
+
+```
+
+
+#### R 
+
+```
+conda install -c r rstudio 
+```
+
+
+
+#### Julia
+```
+conda install -c pstey julia 
+```
+
+
+#### Editors
+
+- VsCode
+```
+sudo dpkg -i code_1.15.1-1502903936_amd64.deb
+```
+
+- Sublime
+```
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+sudo apt-get update
+
+sudo apt-get install sublime-text
+
+```
+
+- Emacs
+
+
+- NeoVim
+
+```
+
+brew install neovim
+
+```
+
+#### Install DEB files
+
+- chrome
+- gitkraken
+- code
+
+```
+sudo dpkg -i gitkraken-amd64.deb google-chrome-stable_current_amd64.deb 
+```
+
+
+
 

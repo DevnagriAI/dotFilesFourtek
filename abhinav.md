@@ -155,60 +155,8 @@ touch init.vim
 
 nvim init.vim 
 
-history | grep 'neovim'
-
-pip3 install neovim
-gem install neovim
-sudo gem install neovim
-git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-cd .rbenv/
-cd
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-ls
-nvim 
-nvim
-ruby install -l
-ruenv install -l
-rbenv install -l
-rbenv -version
-rbenv --help
-rbenv whihc
-rbenv which
-rbenv versions
-git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-rbenv install -l
-rbenv install 2.3.4
-sudo rbenv install 2.3.4
-rbenv install 2.3.4
-
 sudo gem install neovim
 gem install neovim
 
 
 
-mv lein /bin/
-sudo mv lein /bin/
-sudo bash -c "cd /usr/local/bin && curl -fsSLo boot https://github.com/boot-clj/boot-bin/releases/download/latest/boot.sh && chmod 755 boot"
-jabba use zulu@1.8.144
-rbenv install -l
-rbenv versions
-wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
-chmod a+x /bin/lein
-ls
-boot repl
-nvim .bash_profile 
-jabba --version
-java -version
-jabba use zulu@1.8.144
-java -version
-brew info readline
-node --version
-npm --version
-java --version
-java -version
-lein repl
-boot repl
-jabba use zulu@1.8.144
-lein repl
-ruby
-rbenv install 2.3.3
