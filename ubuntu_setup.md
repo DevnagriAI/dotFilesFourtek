@@ -364,6 +364,60 @@ brew install neovim
 
 ```
 
+#### Databases
+
+- PostGreSQL
+
+Reference
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+
+
+```
+#brew install postgresql
+
+sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
+wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install postgresql-common
+sudo apt-get install postgresql-9.5 libpq-dev
+sudo -u postgres createuser eklavya -s
+
+#sudo -u postgres psql
+#postgres=# \password eklavya
+
+```
+
+- OrientDB
+```
+brew install orientdb 
+
+```
+
+- Datomic
+- Camlistore
+- Minio
+
+
+#### DotFile manager
+
+- homesick
+
+```sh
+gem install homesick
+```
+
+- dotBot
+
+```
+mkdir ~/.dotfiles
+cd ~/.dotfiles # replace with the path to your dotfiles
+git init # initialize repository if needed
+git submodule add https://github.com/anishathalye/dotbot
+cp dotbot/tools/git-submodule/install .
+touch install.conf.yaml
+```
+
+
 #### Install DEB files
 
 - chrome
@@ -375,5 +429,13 @@ sudo dpkg -i gitkraken-amd64.deb google-chrome-stable_current_amd64.deb buttercu
 ```
 
 
+- chromium
+```
+sudo apt-get install chromium-browser
+```
 
+#### Finishing touches
 
+- Remove the icons from sidebar
+	- amazon
+	- libreoffice apps

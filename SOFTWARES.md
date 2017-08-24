@@ -2,7 +2,7 @@
 
 #############
 
-N, nodejs, lumo, planck
+lumo, planck
 ###########
 
 ####
@@ -59,8 +59,6 @@ Golang based sync for. All - rclone
 Haskell, ghc, eta
 OCaml
 
-- Chrome, chromium
-
 
 Xonsh
 
@@ -83,8 +81,7 @@ Racket
 Micro
 SVN script to copy a certain folder. 
 Skype 
-Franz chats
-
+Franz chats app
 Mathematica
 Matlab
 
@@ -111,13 +108,6 @@ Hyper - done
 
 Soube/electron music player or just vlc
 
-
-
-PostgreSQL
-OrientDB
-Datomic
-minio
-camlistore
 
 
 
