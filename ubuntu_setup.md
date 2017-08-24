@@ -59,7 +59,9 @@ sudo python3 apt-remove-duplicate-source-entries.py
 reference 
 http://ubuntuhandbook.org/index.php/2017/05/install-brightness-controller-utility-in-ubuntu-16-04-higher/
 
-** Or change the brightness of the monitor manually , buttons
+** Or change the brightness of the monitor manually , buttons to level **30**
+
+
 
 ```sh
 
@@ -311,14 +313,26 @@ conda install -c pstey julia
 ```
 
 
+#### NodeJS
+
+The env management for nodejs is done via `n`
+
+```
+curl -L https://git.io/n-install | bash
+
+source /home/eklavya/.bashrc
+```
+
 #### Editors
 
 - VsCode
+
 ```
 sudo dpkg -i code_1.15.1-1502903936_amd64.deb
 ```
 
 - Sublime
+
 ```
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 
@@ -332,6 +346,15 @@ sudo apt-get install sublime-text
 
 - Emacs
 
+Reference 
+http://ubuntuhandbook.org/index.php/2016/09/install-gnu-emacs-25-1-in-ubuntu-16-04/
+
+```sh
+sudo add-apt-repository ppa:kelleyk/emacs
+sudo apt-get update
+sudo apt-get install emacs25
+
+```
 
 - NeoVim
 
@@ -345,10 +368,10 @@ brew install neovim
 
 - chrome
 - gitkraken
-- code
+- buttercup
 
 ```
-sudo dpkg -i gitkraken-amd64.deb google-chrome-stable_current_amd64.deb 
+sudo dpkg -i gitkraken-amd64.deb google-chrome-stable_current_amd64.deb buttercup_0.18.2_amd64.deb 
 ```
 
 
