@@ -92,11 +92,7 @@ docker --version
 sudo curl -o /usr/local/bin/docker-compose -L "https://github.com/docker/compose/releases/download/1.15.0/docker-compose-$(uname -s)-$(uname -m)"
 
 
-sudo pip3 install xonsh-apt-tabcomplete xonsh-autoxsh xonsh-docker-tabcomplete xonsh-scrapy-tabcomplete xonsh-vox-tabcomplete exofrills xonda xontrib-avox xontrib-z xontrib-powerline xontrib-prompt-vi-mode xonsh-click-tabcomplete xontrib-fzf-widgets
-
-sudo pip3 install lazyasd
-sudo pip3 install urwid
-sudo pip3 install pygments
+sudo pip3 install xonsh-apt-tabcomplete xonsh-autoxsh xonsh-docker-tabcomplete xonsh-scrapy-tabcomplete xonsh-vox-tabcomplete exofrills xonda xontrib-avox xontrib-z xontrib-powerline xontrib-prompt-vi-mode xonsh-click-tabcomplete xontrib-fzf-widgets lazyasd urwid pygments
 
 
 ## ANACONDA
@@ -105,6 +101,8 @@ cd Desktop && wget http://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 bash Miniconda3-latest-Linux-x86_64.sh 
+
+conda install python=3.5
 
 vim ~/.bash_profile 
 

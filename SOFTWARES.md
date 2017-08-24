@@ -103,6 +103,11 @@ Go
 
 ####
 install SBT and then direcly install ammonite
+
+rm -rf /usr/local/bin/amm && sudo curl -L -o /usr/local/bin/amm https://git.io/v5Tct && sudo chmod +x /usr/local/bin/amm && amm
+
+
+or brew info ammonite-repl
 Scala, ammonite 
 ####
 
@@ -273,5 +278,21 @@ conda
 
 conda install python=3.5
 
+install hub for github
 
 homesick dotfile manager
+
+
+
+Kaku-1.9.0-ia32.tar.gz                              
+hyper_1.3.3.deb
+Miniconda3-latest-Linux-x86_64.sh                   jetbrains-toolbox-1.4.2492.tar.gz
+NylasMail.deb                                       
+skypeforlinux-64.deb
+Sqlectron_1.24.0_amd64.deb                          slack-desktop-2.7.1-amd64.deb
+Ubuntu_16.04.2-VB-64bit.7z                          sublime_text_3_build_3126_x64.tar.bz2
+buttercup_0.18.2_amd64.deb                          
+vagrant_1.9.7_x86_64.deb
+code_1.15.1-1502903936_amd64.deb                    virtualbox-5.1_5.1.26-117224-Ubuntu-xenial_i386.deb
+gitkraken-amd64.deb                                 zulu8.23.0.3-jdk8.0.144-linux_x64.tar.gz
+google-chrome-stable_current_amd64.deb
