@@ -27,6 +27,7 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 
 
 - If the update fails because of **libappstream**
+ 
 ```sh
 sudo apt-get purge libappstream3
 ```
@@ -40,8 +41,7 @@ sudo apt-get install libappindicator1 libindicator7
 
 
 
-
-- If the following **apt-update** command fails because of error
+- If the following **apt-update** command fails because of error  (mal-installed chrome etc)
 ```sh
 sudo apt-get update
 ```
@@ -101,7 +101,6 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exec $SHELL
 
-
 ```
 
 - Install `ruby-build`
@@ -146,23 +145,34 @@ exec $SHELL
 Git has already been installed now we only need to configure it.
 
 ```sh
-git config --global color.ui trueThe next step is to take the newly generated SSH key and add it to your Github account. You want to copy and paste the output of the following command and paste it here.
+git config --global color.ui true
+```
 
+The next step is to take the newly generated SSH key and add it to your Github account. You want to copy and paste the output of the following command and paste it here.
+
+Generate ssh key
+
+```
 cat ~/.ssh/id_rsa.pub
-
+```
 Once you've done this, you can check and see if it worked:
 
+```sh
 ssh -T git@github.com
+```
 
 You should get a message like this:
 
 Hi excid3! You've successfully authenticated, but GitHub does not provide shell access.
+
+```sh
 git config --global user.name "Abhinav Sharma"
 git config --global user.email "abhi18av@gmail.com"
 ```
 
 
 - This command will ask for a pass-phrase , don't enter anything - press enter.
+ 
 ```
 ssh-keygen -t rsa -b 4096 -C "abhi18av@gmail.com"
 ```
@@ -194,7 +204,8 @@ brew install gimme
 gimme stable
 ```
 
-- At this point we've added stuff to the `.bashrc` and avoided messing up `.bash_profile`
+- At this point we've added stuff to the `.bashrc` and avoided messing up 
+`.bash_profile`
 
 
 #### Docker
@@ -230,7 +241,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ```sh
 
-
 curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
 
 jabba install zulu@1.8.144
@@ -241,7 +251,6 @@ jabba install zulu@1.8.144
 
 ```
 brew install ammonite-repl
-
 
 brew install sbt
 ```
@@ -330,7 +339,6 @@ curl -L https://git.io/n-install | bash
 
 source /home/eklavya/.bashrc
 
-
 n lts
 
 ```
@@ -365,13 +373,12 @@ http://ubuntuhandbook.org/index.php/2016/09/install-gnu-emacs-25-1-in-ubuntu-16-
 sudo add-apt-repository ppa:kelleyk/emacs
 sudo apt-get update
 sudo apt-get install emacs25
-
 ```
 
 - NeoVim
 
 ```
-
+# perhaps prefer the apt-get channel for pre-built binary
 brew install neovim
 
 ```
@@ -440,13 +447,13 @@ sudo dpkg -i hyper_1.3.3.deb
 
 ```
 
-```
 
 - nylas mail
 
-```
+```sh
 sudo dpkg -i NylasMail.deb 
 ```
+
 - chrome
 - gitkraken
 - buttercup
@@ -457,6 +464,7 @@ sudo dpkg -i gitkraken-amd64.deb google-chrome-stable_current_amd64.deb buttercu
 
 
 - chromium
+
 ```
 sudo apt-get install chromium-browser
 ```
