@@ -536,6 +536,10 @@ sudo apt install tree
 #### TODO
 
 - automated git sign-in from command line
+```
+git config credential.helper store
+```
+
 - 
 
 
