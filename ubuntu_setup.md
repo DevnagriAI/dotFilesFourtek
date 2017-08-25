@@ -146,6 +146,9 @@ Git has already been installed now we only need to configure it.
 
 ```sh
 git config --global color.ui true
+git config --global user.name "Abhinav Sharma"
+git config --global user.email "abhi18av@gmail.com"
+git config -l
 ```
 
 The next step is to take the newly generated SSH key and add it to your Github account. You want to copy and paste the output of the following command and paste it here.
@@ -296,6 +299,16 @@ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 
 #### ANACONDA
+
+
+- The current chmod creates a warning with `homesick`
+
+`warning: Insecure world writable dir /home/eklavya/miniconda3/bin in PATH, mode 040777`
+
+Reference
+https://stackoverflow.com/questions/5380671/getting-the-warning-insecure-world-writable-dir-home-chance-in-path-mode-04
+
+Correction: `sudo chmod -R go-w miniconda3/`
 
 ```
 sudo bash Miniconda3-latest-Linux-x86_64.sh 
@@ -510,8 +523,19 @@ sudo apt-get install chromium-browser
 	- libreoffice apps
 
 
+#### Shell Utils
+
+- tree 
+
+```
+sudo apt install tree
+```
+
+
 
 #### TODO
 
 - automated git sign-in from command line
 - 
+
+
