@@ -494,3 +494,11 @@ sudo apt-get install chromium-browser
 - Remove the icons from sidebar
 	- amazon
 	- libreoffice apps
+
+
+
+#### TODO
+
+- automated git sign-in from command line
+- install git-lfs
+- 
