@@ -144,6 +144,19 @@ Sql Explorer
 
 
 
+Microsoft 
+- word
+- outlook
+- onenote
+- project
+- excel
+
+mindjet mindmanager
+iterm
+go2shell
+gitbook
+coqIDE
+
 install hub for github
 
 
@@ -152,3 +165,24 @@ krita
 pencil
 gimp
 inkscape
+blender
+db-browser
+eclipse*
+etcher
+gemini
+metabase
+paragon-ntfs
+latex - needed for rstudio
+unarchiver app
+avira
+wunderlist
+transmission
+
+
+logic-pro-x 
+- Android stuff
+genymotion
+
+sonic-pi
+audacity
+avira
