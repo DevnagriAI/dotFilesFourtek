@@ -466,6 +466,21 @@ brew install orientdb
 
 #### DotFile manager
 
+- homemaker
+
+``sh
+go get github.com/FooSoft/homemaker
+
+```
+
+
+```sh
+
+sudo mv homemaker /usr/local/bin/
+chmod a+x /usr/local/bin/homemaker 
+
+```
+
 - homesick
 
 ```sh
@@ -474,13 +489,11 @@ gem install homesick
 
 - dotBot
 
+
 ```
-mkdir ~/.dotfiles
-cd ~/.dotfiles # replace with the path to your dotfiles
-git init # initialize repository if needed
-git submodule add https://github.com/anishathalye/dotbot
-cp dotbot/tools/git-submodule/install .
-touch install.conf.yaml
+curl -fsSLO https://raw.githubusercontent.com/Vaelatern/init-dotfiles/master/init_dotfiles.sh
+
+./init_dotfiles.sh
 ```
 
 
@@ -540,6 +553,11 @@ sudo apt install tree
 git config credential.helper store
 ```
 
-- 
+- platinum_searcher
+
+```
+go get -u github.com/monochromegane/the_platinum_searcher/...
+
+``` 
 
 
