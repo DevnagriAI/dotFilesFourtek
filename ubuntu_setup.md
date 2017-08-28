@@ -553,11 +553,24 @@ sudo apt install tree
 git config credential.helper store
 ```
 
-- platinum_searcher
+- `pt` - The Platinum searcher 
 
 ```
 go get -u github.com/monochromegane/the_platinum_searcher/...
+```
 
 ``` 
+
+- `rg` RipGrep
+
+
+
+- `exa` - replacement for `ls` in rust
+
+```
+#brew install exa
+
+mv _binary_installers/exa-macos-x86_64 /usr/local/bin/exa
+```
 
 
