@@ -186,3 +186,4 @@ genymotion
 sonic-pi
 audacity
 avira
+drip and drake clojure

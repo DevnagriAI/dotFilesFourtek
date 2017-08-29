@@ -121,14 +121,14 @@ eval "$(command rbenv init -)"
 rbenv "$@"
 }
 
-
-lcb(){
-eval "lein cljsbuild once frontend-dev"
-eval "lein cljsbuild once electron-dev"
-}
-
-
 eval "rbenv global 2.3.3 > ~/.dev/null"
+
+
+
+#lcb(){
+#eval "lein cljsbuild once frontend-dev"
+#eval "lein cljsbuild once electron-dev"
+#}
 
 # Source antigen
 
@@ -146,10 +146,6 @@ antigen apply
 
 
 
-
-
-
-
 #source /Users/eklavya/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-b4b4r07-SLASH-enhancd.git/init.sh
 
 
@@ -163,18 +159,12 @@ export NVM_DIR="/Users/eklavya/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
-#export PATH="~/Projects/bitworld/:$PATH"
 #alias ruby="/Users/eklavya/.rbenv/versions/2.3.1/bin/ruby"
 
 
-# MAMP php to path
-
-export PATH="/Applications/MAMP/bin/php/php5.6.10/bin:$PATH"
 
 
-
-export ANDROID_HOME=/usr/local/opt/android-sdk
-
+export PATH="~/.rbenv:$PATH"
 
 
 # setting up anaconda
@@ -213,7 +203,6 @@ export PATH="$PATH:$HOME/.rbenv/versions/jruby-9.1.6.0/bin/"
 # uninstall by removing these lines or running `tabtab uninstall electron-forge`
 [[ -f /Users/eklavya/.nvm/versions/node/v6.10.2/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/eklavya/.nvm/versions/node/v6.10.2/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh
 
-if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
 
 
 #eval "gvm use go1.6 > ~/.dev/null"
@@ -234,4 +223,5 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
 #export GOPATH=$GOPATH:~/Projects/Polyglot/TedTalks/goTED
+
 export PATH="/usr/local/opt/llvm/bin:$PATH"
