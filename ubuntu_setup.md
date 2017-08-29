@@ -248,6 +248,8 @@ curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.ja
 
 jabba install zulu@1.8.144
 
+sudo update-alternatives --install /usr/bin/java java ${JAVA_HOME%*/}/bin/java 20000
+sudo update-alternatives --install /usr/bin/javac javac ${JAVA_HOME%*/}/bin/javac 20000
 ```
 
 - Scala
@@ -261,11 +263,26 @@ brew install sbt
 
 - Clojure
 
+
+- This leiningen installation causes errors with cider
+
 ```
 brew install leiningen
 
 lein repl
+```
+So, we prefer the usual way of downloading and then copying it to `bin`
 
+Install from `_binary_installers`
+
+```
+sudo mv lein-install-script.sh /usr/local/bin/lein
+
+```
+
+- Installation of Boot
+
+```
 brew install boot-clj
 
 boot repl
