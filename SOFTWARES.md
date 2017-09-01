@@ -187,3 +187,9 @@ sonic-pi
 audacity
 avira
 drip and drake clojure
+Osquery 
+Inxi
+sql explorer
+
+
+intellij-toolkit and stuff
