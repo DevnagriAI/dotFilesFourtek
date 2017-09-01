@@ -590,4 +590,12 @@ go get -u github.com/monochromegane/the_platinum_searcher/...
 mv _binary_installers/exa-macos-x86_64 /usr/local/bin/exa
 ```
 
+- swap `caps` to `case` ubuntu
 
+Resource
+https://askubuntu.com/questions/882151/swap-ctrl-and-caps-lock-in-tty1-deeper-than-gnome
+
+
+- Disable the `alt` key for peeking in ubuntu
+Resource 
+https://askubuntu.com/questions/850741/how-do-i-disable-the-alt-hotkey-in-unity
