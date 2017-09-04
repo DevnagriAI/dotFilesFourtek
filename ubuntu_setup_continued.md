@@ -108,3 +108,22 @@ sudo dpkg -i vagrant_1.9.8_x86_64.deb
 ```
 sudo dpkg -i slack-desktop-2.7.1-amd64.deb 
 ```
+
+
+### Python environment for spacemacs
+
+
+Pyenv 
+
+```
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+
+```
+
+
+
+```
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+```
