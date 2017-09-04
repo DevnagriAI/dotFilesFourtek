@@ -18,7 +18,8 @@ sudo curl -sLf https://spacevim.org/install.sh | bash
 ```
 
 ## exFAT File System
-
+Resource
+https://askubuntu.com/questions/750681/gui-tool-for-formating-to-exfat
 
 ```
 sudo apt-get install exfat-utils exfat-fuse
