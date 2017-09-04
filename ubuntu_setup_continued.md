@@ -85,7 +85,16 @@ sudo apt install virtualbox-5.1
 ```
 
 install vagrant by simply running 
+
 ```sh
 sudo dpkg -i vagrant_1.9.8_x86_64.deb 
+```
 
+
+### APPS
+
+- Slack
+
+```
+sudo dpkg -i slack-desktop-2.7.1-amd64.deb 
 ```
