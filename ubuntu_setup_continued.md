@@ -22,6 +22,10 @@ Resource
 https://askubuntu.com/questions/750681/gui-tool-for-formating-to-exfat
 
 ```
+sudo chown -R eklavya:eklavya /media/eklavya/GoFlex/
+```
+
+```
 sudo apt-get install exfat-utils exfat-fuse
 ```
 
