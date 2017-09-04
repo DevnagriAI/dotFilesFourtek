@@ -17,7 +17,12 @@ sudo curl -sLf https://spacevim.org/install.sh | bash
 
 ```
 
+## exFAT File System
 
+
+```
+sudo apt-get install exfat-utils exfat-fuse
+```
 
 ## GPU stuff
 
