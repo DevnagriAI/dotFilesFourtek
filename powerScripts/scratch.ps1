@@ -49,6 +49,7 @@ $st = [System.Collections.Stack]::new(1,2,3)
 
 ,$st | Get-Member
 
+,$st.count
 
 
 
