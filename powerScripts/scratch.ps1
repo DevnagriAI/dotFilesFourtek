@@ -36,3 +36,46 @@ Do {
 
 
 Get-Service | Where-Object {$_.Status -eq "Stopped"} 
+
+$st = [System.Collections.Stack]::new(1,2,3)
+
+
+
+[Int64[]]$int_list = @(1,2,3)
+
+,$int_list | Get-Member
+
+[System.Collections.Stack]$st = @(1,2,3)
+
+,$st | Get-Member
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
