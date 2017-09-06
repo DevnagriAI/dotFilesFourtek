@@ -3,6 +3,7 @@
 Get-Module -ListAvailable
 
 
+
 Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
 
 
@@ -52,3 +53,9 @@ $st = [System.Collections.Stack]::new(1, 2, 3)
 , $st | Get-Member
 
 , $st.count
+
+1 | Get-TypeData()
+
+
+
+
