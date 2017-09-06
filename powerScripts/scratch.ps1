@@ -19,3 +19,20 @@ cat /etc/passwd | ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Des
 
 (Invoke-WebRequest -Uri 'http://jsonplaceholder.typicode.com/posts?userid=1' -Method Get).Content | ConvertFrom-Json
 
+
+
+Do {
+    
+    $numbers = $numbers + 1
+    
+    Write-Host "The current value of the variable is $numbers"
+    
+    } While ($numbers -lt 10)
+
+
+
+
+
+
+
+Get-Service | Where-Object {$_.Status -eq "Stopped"} 
