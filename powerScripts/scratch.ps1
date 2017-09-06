@@ -58,4 +58,7 @@ $st = [System.Collections.Stack]::new(1, 2, 3)
 
 
 
+(1).GetType()
+
+(1).ToDouble()
 
