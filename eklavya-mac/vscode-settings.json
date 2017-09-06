@@ -1,0 +1,119 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "guides.enabled": false,
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-apple-darwin"
+    },
+    "rust.mode": "rls",
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": false,
+
+
+    "editor.fontFamily": "Fira Code Retina, Monaco, 'Courier New', monospace",
+    "editor.tabSize": 16,
+    "editor.cursorStyle": "line",
+    "window.zoomLevel": 2,
+    "editor.cursorBlinking": "solid",
+    "telemetry.enableTelemetry": false,
+    "workbench.colorTheme": "Monokai",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && clang $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "/Users/eklavya/anaconda/bin/python3.5",
+        "perl": "perl",
+        "ruby": "/Users/eklavya/.rbenv/shims/ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "shellscript": "bash",
+        "fsharp": "fsharpi",
+        "csharp": "cd $dir && scriptcs $fileName",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "amm",
+        "julia": "julia",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "haskell": "/usr/local/bin/stack exec -- runghc",
+        "dart": "dart"
+    },
+    "python.pythonPath": "/Users/eklavya/anaconda/bin/python3.5",
+    "files.autoSave": "onFocusChange",
+    "sync.gist": "",
+    "sync.lastUpload": "",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.dragAndDrop": true,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "telemetry.enableCrashReporter": false,
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "f",
+                "d"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ":"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showCommands",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "Z",
+                "Z"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.easymotion": true,
+    "git.confirmSync": false,
+    "view-in-browser.customBrowser": "chrome",
+    "files.associations": {
+        "*.sc": "scala"
+    },
+    "editor.lineNumbers": "relative",
+    "vim.overrideCopy": false,
+    "python.linting.mypyEnabled": true,
+    "python.formatting.formatOnSave": true,
+    "python.formatting.provider": "yapf",
+    "ruby.rubocop.configFilePath": "",
+    "ruby.rubocop.onSave": false,
+    "material-icon-theme.showUpdateMessage": false,
+    "editor.renderIndentGuides": false,
+    "editor.formatOnSave": true,
+    
+}
