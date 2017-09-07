@@ -26,3 +26,8 @@ http://guide.bash.academy/
 
 
 https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php
+
+
+#### Regular Expression tutorial
+
+https://ryanstutorials.net/regular-expressions-tutorial/
