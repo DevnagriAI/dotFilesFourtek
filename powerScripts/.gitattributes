@@ -1,2 +1,6 @@
 _resources/1989-PSOneLinersP3.pdf filter=lfs diff=lfs merge=lfs -text
 _resources/PowerShell_LangRef_v3.pdf filter=lfs diff=lfs merge=lfs -text
+_resources/powershell-torrents/[CBT[[:space:]]Nuggets][[:space:]]PowerShell[[:space:]]4[[:space:]]Foundations[[:space:]][2015,[[:space:]]ENG][[:space:]][rutracker-5339098].torrent filter=lfs diff=lfs merge=lfs -text
+_resources/powershell-torrents/[O'Reilly[[:space:]]Media[[:space:]]Infinite[[:space:]]Skills][[:space:]]Advanced[[:space:]]Windows[[:space:]]PowerShell[[:space:]]Scripting[[:space:]][2016,[[:space:]]ENG][[:space:]][rutracker-5190657].torrent filter=lfs diff=lfs merge=lfs -text
+_resources/powershell-torrents/[Pluralsight.com[[:space:]]Jeff[[:space:]]Hicks][[:space:]]PowerShell[[:space:]]Remoting[[:space:]]Fundamentals[[:space:]][2016,[[:space:]]ENG][[:space:]][rutracker-5148690].torrent filter=lfs diff=lfs merge=lfs -text
+_resources/powershell-torrents/[Pluralsight.com][[:space:]]PowerShell[[:space:]]Toolmaking[[:space:]]Fundamentals[[:space:]][2015,[[:space:]]ENG][[:space:]][rutracker-5093676].torrent filter=lfs diff=lfs merge=lfs -text
