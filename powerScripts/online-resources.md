@@ -25,3 +25,4 @@ http://www.learnshell.org/
 http://guide.bash.academy/
 
 
+https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php
