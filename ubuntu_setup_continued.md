@@ -198,3 +198,9 @@ make
 sudo make install
 
 ```
+
+- `hub` Install hub for github
+
+```sh
+brew install hub
+```
