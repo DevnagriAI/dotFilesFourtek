@@ -1,7 +1,11 @@
 [System.Math]::Exp(10)
 
-Get-Module -ListAvailable
 
+[System.Environment]::GetFolderPath(".")
+
+
+
+Get-Module -ListAvailable
 
 
 Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
@@ -9,7 +13,7 @@ Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
 
 
 
-cat /etc/passwd | ConvertFrom-Csv -Delimiter ':' -Header Name, Passwd, UID, GID, Description, Home, Shell | Sort-Object Name | Format-Table
+cat /etc/passwd | ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell | Sort-Object Name | Format-Table
 
 
 
@@ -19,49 +23,63 @@ cat /etc/passwd | ConvertFrom-Csv -Delimiter ':' -Header Name, Passwd, UID, GID,
 
 Do {
     
-                $numbers = $numbers + 1
+    $numbers = $numbers + 1
     
-                Write-Host "The current value of the variable is $numbers"
+    Write-Host "The current value of the variable is $numbers"
     
-} While ($numbers -lt 10)
+    } While ($numbers -lt 10)
 
 
 
-$array | Get-Member 
 
-
-$array = @(1,2,3)
-
-for ($i = 0; $i -lt $array.Count; $i++) {
-echo $i               
-}
 
 
 
 Get-Service | Where-Object {$_.Status -eq "Stopped"} 
 
-$st = [System.Collections.Stack]::new(1, 2, 3)
+$st = [System.Collections.Stack]::new(1,2,3)
 
 
 
-[Int64[]]$int_list = @(1, 2, 3)
+[Int64[]]$int_list = @(1,2,3)
 
-, $int_list | Get-Member
+,$int_list | Get-Member
 
-[System.Collections.Stack]$st = @(1, 2, 3)
+[System.Collections.Stack]$st = @(1,2,3)
 
-, $st | Get-Member
+,$st | Get-Member
 
-, $st.count
+,$st.count
 
-1 | Get-TypeData()
+Stack.Pop
 
 
 
-(1).GetType()
 
-(1).ToDouble()
 
-function add9 (OptionalParameters) {
-                
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
