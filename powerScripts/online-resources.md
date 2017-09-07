@@ -20,3 +20,8 @@ https://developer.rackspace.com/blog/powershell-101-from-a-linux-guy/
 #### Simple bash tutorials
 
 http://www.learnshell.org/
+
+
+http://guide.bash.academy/
+
+
