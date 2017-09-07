@@ -204,3 +204,9 @@ sudo make install
 ```sh
 https://github.com/tj/git-extras
 ```
+- gitsome
+
+```sh
+https://github.com/donnemartin/gitsome
+
+```
