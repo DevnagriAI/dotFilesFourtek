@@ -179,12 +179,22 @@ sudo apt-get install dotnet-sdk-2.0.0
 
 ## SHELL UTITLITIES
 
+- cmake
+
+```sh
+brew install cmake
+```
+
 - gitql
+
 
 ```shell
 go get -u -d github.com/cloudson/gitql
+
 cd $GOPATH/src/github.com/cloudson/gitql
+
 make
+
 sudo make install
 
 ```
