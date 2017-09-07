@@ -5,7 +5,9 @@
 
 
 
-Get-Module -ListAvailable
+Get-Module -ListAvailable 
+
+
 
 
 Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
@@ -55,6 +57,7 @@ Stack.Pop
 
 
 
+Get-Uptime
 
 
 

@@ -14,3 +14,9 @@ https://docs.microsoft.com/en-us/powershell/scripting/getting-started/cookbooks/
 
 
 https://developer.rackspace.com/blog/powershell-101-from-a-linux-guy/
+
+
+
+#### Simple bash tutorials
+
+http://www.learnshell.org/
