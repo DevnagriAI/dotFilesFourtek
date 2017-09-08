@@ -26,13 +26,13 @@ https://askubuntu.com/questions/750681/gui-tool-for-formating-to-exfat
 - This is the command used for installtion of `exFat`
 ```
 sudo apt-get install exfat-utils exfat-fuse
-
+```
 
 - For `neanderthal`
 ```
 sudo chown -R eklavya:eklavya /media/eklavya/GoFlex/
 ```
-```
+
 
 ## GPU stuff
 
