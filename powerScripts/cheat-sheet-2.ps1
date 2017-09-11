@@ -8,7 +8,6 @@ $str1 = "a"
 $num1 = 10
 
 
-
 [string]$sentc1 = "This is a fairly long sentence."
 
 ($sentc1).GetType()
@@ -19,3 +18,4 @@ $num1 = 10
 
 
 
+@(1:"a", 2:"b").
