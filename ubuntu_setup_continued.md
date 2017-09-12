@@ -204,6 +204,14 @@ sudo make install
 
 ```
 
+- `textql` 
+
+```
+go get -u github.com/dinedal/textql/...
+
+
+```
+
 - `hub` Install hub for github
 
 ```sh
