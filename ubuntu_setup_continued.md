@@ -188,10 +188,15 @@ brew install cmake
 - gitql
 
 
+
 ```shell
+brew install cmake
+
 go get -u -d github.com/cloudson/gitql
 
 cd $GOPATH/src/github.com/cloudson/gitql
+
+export DYLD_LIBRARY_PATH="${GOPATH}/src/github.com/cloudson/gitql/libgit2/install/lib:${DYLD_LIBRARY_PATH}"
 
 make
 
