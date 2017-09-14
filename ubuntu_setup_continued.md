@@ -217,3 +217,12 @@ go get -u github.com/dinedal/textql/...
 ```sh
 brew install hub
 ```
+
+
+## Install Font Hack
+
+- hack
+
+```
+sudo apt-get install fonts-hack-ttf
+```
