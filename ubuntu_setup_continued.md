@@ -233,3 +233,10 @@ brew install hub
 ```
 sudo apt-get install fonts-hack-ttf
 ```
+
+## Browser drivers
+
+- Gecko
+
+
+https://github.com/mozilla/geckodriver/releases
