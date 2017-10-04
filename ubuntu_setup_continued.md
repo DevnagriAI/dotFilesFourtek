@@ -279,7 +279,7 @@ sudo apt install flatpak
 
 ```
 
-### ModoDevelop
+### MonoDevelop
 
 ```
 flatpak install --user --from https://download.mono-project.com/repo/monodevelop.flatpakref
