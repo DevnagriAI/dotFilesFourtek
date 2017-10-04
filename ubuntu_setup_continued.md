@@ -264,3 +264,25 @@ sudo ln -s /opt/Postman/Postman /usr/bin/postman
 
 
 https://github.com/mozilla/geckodriver/releases
+
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+
+## flatpack
+
+```
+sudo add-apt-repository ppa:alexlarsson/flatpak
+
+sudo apt update
+
+sudo apt install flatpak
+
+```
+
+### ModoDevelop
+
+```
+flatpak install --user --from https://download.mono-project.com/repo/monodevelop.flatpakref
+
+flatpak run com.xamarin.MonoDevelop
+```
