@@ -286,3 +286,10 @@ flatpak install --user --from https://download.mono-project.com/repo/monodevelop
 
 flatpak run com.xamarin.MonoDevelop
 ```
+
+
+## Correct the conda path issues
+
+```
+sudo chown -R eklavya ~/miniconda3/
+```
