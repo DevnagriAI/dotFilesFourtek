@@ -297,6 +297,12 @@ sudo chown -R eklavya ~/miniconda3/
 
 ### Bazel build
 
+Reference 
+https://docs.bazel.build/versions/master/install-ubuntu.html#install-on-ubuntu 
+
+Note that bazel-0.5.4-without-jdk-installer-linux-x86_64.sh also exists. It is a version without embedded JDK 8. Only use this installer if you already have JDK 8 installed. 
+
+
 ```sh
 echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
 curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
@@ -312,3 +318,5 @@ Once installed, you can upgrade to a newer version of Bazel with:
 
 sudo apt-get upgrade bazel
 ```
+- 
+
