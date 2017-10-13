@@ -320,3 +320,5 @@ sudo apt-get upgrade bazel
 ```
 - 
 
+### IntelliJ Idea
+
