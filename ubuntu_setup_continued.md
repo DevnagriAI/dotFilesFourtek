@@ -340,6 +340,11 @@ This will simply check your architecture, download and install the proper pre-co
 ```
 
 - Setup for `spacemacs`
+```sh
+opam depext conf-m4.1
+
+```
+The above installation will make sure that the following packages are installed correctly
 
 ```sh
 opam install merlin utop ocp-indent
