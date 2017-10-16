@@ -332,4 +332,9 @@ The quickest way to get the latest opam up and working is to run:
 ```
 wget https://raw.github.com/ocaml/opam/master/shell/opam_installer.sh -O - | sh -s /usr/local/bin
 ```
-This will simply check your architecture, download and install the proper pre-compiled binary and run opam init.
+This will simply check your architecture, download and install the proper pre-compiled binary and run `opam init`.
+
+```sh
+  eval `opam config env`
+
+```
