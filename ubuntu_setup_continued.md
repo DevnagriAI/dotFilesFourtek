@@ -338,3 +338,9 @@ This will simply check your architecture, download and install the proper pre-co
   eval `opam config env`
 
 ```
+
+- Setup for `spacemacs`
+
+```sh
+opam install merlin utop ocp-indent
+```
