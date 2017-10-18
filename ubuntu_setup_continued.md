@@ -349,3 +349,12 @@ The above installation will make sure that the following packages are installed 
 ```sh
 opam install merlin utop ocp-indent
 ```
+
+- Installation of `jane street core ` 
+
+
+```sh
+opam install core async yojson core_extended core_bench \
+   cohttp async_graphics cryptokit menhir
+
+```
