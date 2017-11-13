@@ -175,6 +175,13 @@ sudo apt-get install dotnet-sdk-2.0.0
 
 ```
 
+## Chrome driver 
+
+- 
+
+```sh
+sudo mv chromedriver /usr/local/bin/
+```
 
 
 ## SHELL UTITLITIES
