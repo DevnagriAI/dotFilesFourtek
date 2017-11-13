@@ -576,7 +576,6 @@ git config credential.helper store
 go get -u github.com/monochromegane/the_platinum_searcher/...
 ```
 
-``` 
 
 - `rg` RipGrep
 

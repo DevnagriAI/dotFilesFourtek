@@ -1,3 +1,14 @@
+## Yarn
+
+```sh
+
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+
+
+```
+
 ## Editors
 
 #### Emacs
@@ -118,20 +129,27 @@ sudo dpkg -i slack-desktop-2.7.1-amd64.deb
 ### Python environment for spacemacs
 
 
-Pyenv 
+- Pyenv 
 
 ```
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
 ```
 
-
-
 ```
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 ```
+- pyenv-virtualenv
+
+```
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+
+```
+
 
 
 ### Powershell
@@ -195,10 +213,15 @@ brew install cmake
 - gitql
 
 
+
 ```shell
+brew install cmake
+
 go get -u -d github.com/cloudson/gitql
 
 cd $GOPATH/src/github.com/cloudson/gitql
+
+export DYLD_LIBRARY_PATH="${GOPATH}/src/github.com/cloudson/gitql/libgit2/install/lib:${DYLD_LIBRARY_PATH}"
 
 make
 
@@ -206,8 +229,139 @@ sudo make install
 
 ```
 
+- `textql` 
+
+```
+go get -u github.com/dinedal/textql/...
+
+
+```
+
 - `hub` Install hub for github
 
 ```sh
 brew install hub
+```
+
+
+## Install Font Hack
+
+- hack
+
+```
+sudo apt-get install fonts-hack-ttf
+```
+
+
+## Postman
+Resources
+
+https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/
+
+```sh
+wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+sudo tar -xzf postman.tar.gz -C /opt
+rm postman.tar.gz
+sudo ln -s /opt/Postman/Postman /usr/bin/postman
+```
+
+## Browser drivers
+
+- Gecko
+
+
+https://github.com/mozilla/geckodriver/releases
+
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+
+## flatpack
+
+```
+sudo add-apt-repository ppa:alexlarsson/flatpak
+
+sudo apt update
+
+sudo apt install flatpak
+
+```
+
+### MonoDevelop
+
+```
+flatpak install --user --from https://download.mono-project.com/repo/monodevelop.flatpakref
+
+flatpak run com.xamarin.MonoDevelop
+```
+
+
+## Correct the conda path issues
+
+```
+sudo chown -R eklavya ~/miniconda3/
+```
+
+
+### Bazel build
+
+Reference 
+https://docs.bazel.build/versions/master/install-ubuntu.html#install-on-ubuntu 
+
+Note that bazel-0.5.4-without-jdk-installer-linux-x86_64.sh also exists. It is a version without embedded JDK 8. Only use this installer if you already have JDK 8 installed. 
+
+
+```sh
+echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
+
+sudo apt-get update && sudo apt-get install bazel
+
+```
+- To upgrade Bazel
+
+Once installed, you can upgrade to a newer version of Bazel with:
+
+```sh
+
+sudo apt-get upgrade bazel
+```
+- 
+
+### IntelliJ Idea
+
+
+
+### OCAML
+
+## Opam
+
+The quickest way to get the latest opam up and working is to run:
+```
+wget https://raw.github.com/ocaml/opam/master/shell/opam_installer.sh -O - | sh -s /usr/local/bin
+```
+This will simply check your architecture, download and install the proper pre-compiled binary and run `opam init`.
+
+```sh
+  eval `opam config env`
+
+```
+
+- Setup for `spacemacs`
+```sh
+opam depext conf-m4.1
+
+```
+The above installation will make sure that the following packages are installed correctly
+
+```sh
+opam install merlin utop ocp-indent
+```
+
+- Installation of `jane street core ` 
+
+
+```sh
+opam install core async yojson core_extended core_bench \
+   cohttp async_graphics cryptokit menhir
+
 ```
