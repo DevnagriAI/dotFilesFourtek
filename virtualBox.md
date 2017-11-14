@@ -16,3 +16,5 @@ https://www.techrepublic.com/article/how-to-manually-install-the-virtualbox-exte
 
 https://askubuntu.com/questions/718446/installing-extension-pack-stuck-at-0
 
+https://unix.stackexchange.com/questions/366966/cannot-see-usb-devices-on-windows-guest
+
