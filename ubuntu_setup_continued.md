@@ -370,6 +370,8 @@ opam install core async yojson core_extended core_bench \
 
 http://sourcedigit.com/20695-how-to-install-firefox-developer-edition-on-ubuntu-16-04/
 
+https://www.maketecheasier.com/install-firefox-developer-edition-linux/
+
 
 ## geckodriver setup
 
